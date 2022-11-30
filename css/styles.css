@@ -466,6 +466,18 @@ button:hover {
         height: fit-content;
     }
 
+    .contato>h2,
+.habilidades>h2{
+
+    text-align: center;
+    margin-right: 9rem;
+}
+
+.projetos>h2{
+    width: 9rem;
+    margin-left: 8rem;
+}
+
     .projetos,
     .about,
     .contato {
@@ -475,17 +487,17 @@ button:hover {
     .container {
 
         display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
         margin-top: 5vh;
         margin-left: 0.5rem;
-        padding: 0 10rem;
+        padding: 0 1rem;
 
 
     }
 
     .div-transform {
         display: grid;
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
         width: auto;
         
 
@@ -493,8 +505,10 @@ button:hover {
 
     .card {
         margin-bottom: 2rem;
-        margin-left: 0.5rem;
+        margin-left: 0.1rem;
         margin-right: 0.5rem;
+        width: 10rem;
+        padding: 1rem;
     }
 
 
@@ -504,12 +518,12 @@ button:hover {
 
     .icones {
         display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-gap: 5rem;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
         margin-top: 5vh;
         margin-bottom: 5vh;
-        margin-left: 1.0rem;
-        padding: 0 12rem;
+        margin-right: 4rem;
+        padding: 0 0.5rem;
 
     }
 
