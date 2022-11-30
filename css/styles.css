@@ -461,21 +461,22 @@ button:hover {
 @media screen and (max-width: 600px) {
 
     body {
-        min-width: 530px;
-        overflow-x: hidden;
+        width: 80%;
+        max-width: 500px;
         height: fit-content;
     }
+
 
     .contato>h2,
 .habilidades>h2{
 
     text-align: center;
-    margin-right: 9rem;
+    margin-right: 15vw;
 }
 
 .projetos>h2{
     width: 9rem;
-    margin-left: 8rem;
+    margin-left: 60vw;
 }
 
     .projetos,
@@ -489,7 +490,7 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 5vh;
-        margin-left: 0.5rem;
+        margin-left: 80%;
         padding: 0 1rem;
 
 
@@ -499,14 +500,12 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: auto;
-        
+        margin-left: 20vw;
 
     }
 
     .card {
         margin-bottom: 2rem;
-        margin-left: 0.1rem;
-        margin-right: 0.5rem;
         width: 10rem;
         padding: 1rem;
     }
@@ -514,6 +513,7 @@ button:hover {
 
     .habilidades {
         margin-top: 5vh;
+        margin-left: 30vw;
     }
 
     .icones {
@@ -521,8 +521,6 @@ button:hover {
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
         margin-top: 5vh;
-        margin-bottom: 5vh;
-        margin-right: 4rem;
         padding: 0 0.5rem;
 
     }
@@ -534,15 +532,21 @@ button:hover {
 
     .sobre {
         margin-top: 10vh;
-        width: 10.25rem;
+        width: 2vw;
         visibility: visible;
         padding: 1px;
+        margin-left: 20vw;
+    }
+
+    .desc{
+        width: 1vw;
     }
 
     .sobre>p {
         
         text-align: right;
         letter-spacing: normal;
+        width: 1vw;
 
     }
 
