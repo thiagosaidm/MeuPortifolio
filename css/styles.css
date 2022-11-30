@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;600&display=swap');
+
+/* GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+
+}
+
+body {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+.projetos,
+.about,
+.contato {
+    visibility: hidden;
+}
+
+.info {
+    color: #0eaee3;
+    margin: 30vh auto;
+}
+
+/*MENU */
+
+.logo {
+    width: 6rem;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+li,
+a,
+button {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.2rem;
+    color: #ffff;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 10%;
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0eaee3;
+    text-shadow: 0.12rem 0.12rem 0.9rem #58e2fb;
+}
+
+button {
+    padding: 0.56rem 1.56rem;
+    background-color: rgb(0, 0, 0);
+    border: 0.12rem solid rgba(14, 174, 227, 1);
+    border-radius: 1.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(14, 174, 227, 1);
+    box-shadow: 0.06rem 0.06rem 0.93rem 0.12rem #4cbae2;
+}
+
+
+/* APRESENTAÇÃO DO SITE */
+
+.nome {
+    display: flex;
+
+
+}
+
+.nome h1 {
+    margin: 18vh;
+    display: flex;
+    color: #ffff;
+}
+
+/* underline piscando */
+#texto::after {
+    content: '_';
+    margin-left: 0.3rem;
+    animation: blink 0.7s infinite;
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Apresentação */
+.sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub img {
+    border: 0.18rem solid #05c5e7;
+    border-radius: 20%;
+    width: 12rem;
+    height: 12rem;
+    margin: auto;
+}
+
+.sub>h1 {
+    color: #ffffff;
+    margin: 1.25rem 3.12rem;
+    text-align: center;
+}
+
+/* Links profissionais */
+.links_externos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    margin: auto;
+}
+
+.links_externos img {
+    width: 1.25rem;
+}
+
+.links_externos button {
+    margin: auto 1.87rem;
+
+}
+
+/* Projetos */
+
+.projetos {
+    color: #0eaee3;
+    text-align: center;
+    margin-top: 20vh;
+    height: 90vh;
+}
+
+.projetos>h2 {
+    padding: 0.6rem;
+    color: #ffff;
+    border-bottom: 0.06rem solid #05c5e7;
+    width: 31.25rem;
+    margin: auto;
+    font-size: 1.8rem;
+}
+
+
+/* CARDS COM PROJETOS */
+
+
+.container {
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-transform {
+    display: flex;
+    width: 90vw;
+
+
+}
+
+.card {
+    background-color: #05c5e7;
+    color: rgb(247, 246, 246);
+    border-radius: 0.5rem;
+    padding: 0px 1.12rem;
+    width: 15.25rem;
+    transition: 0, 5s ease;
+    overflow: hidden;
+    transform: translate(0);
+    text-align: center;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0, 05;
+}
+
+.card h2 {
+    text-transform: capitalize;
+}
+
+.card h4 {
+
+    letter-spacing: 0.25rem;
+    margin-top: 2.5rem;
+}
+
+.card-1 {
+    background-size: cover;
+    transform: scale(1.02);
+    margin-right: 2.5rem;
+    padding: 1.56rem;
+}
+
+.card-2 {
+    background-size: cover;
+    transform: scale(1.02);
+    margin-right: 2.5rem;
+    padding: 1.56rem;
+}
+
+.card-3 {
+    background-size: cover;
+    transform: scale(1.02);
+    margin-right: 2.5rem;
+    padding: 1.56rem;
+}
+
+.card-1 iframe {
+    box-sizing: border-box;
+    width: 1.25rem;
+    margin-left: -1.25rem;
+    padding: 1.56rem;
+
+
+}
+
+.card-2 iframe {
+    box-sizing: border-box;
+    width: 1.25rem;
+    margin-left: -1.25rem;
+    padding: 1.56rem;
+
+
+}
+
+.card-3 iframe {
+    box-sizing: border-box;
+    width: 1.25rem;
+    margin-left: -1.25rem;
+    padding: 1.56rem;
+
+
+}
+
+.card-1:hover {
+    transform: scale(1.20);
+    box-shadow: -7px 4px 28px -3px #58e2fb;
+    transition: 0.5s;
+}
+
+.card-1::before {
+    background-color: linear-gradient(90deg, #0eaee3 0%, #0eaee3 100%);
+}
+
+.card-2:hover {
+    transform: scale(1.20);
+    box-shadow: -7px 4px 28px -3px #58e2fb;
+    transition: 0.5s;
+}
+
+.card-2::before {
+    background-color: linear-gradient(90deg, #0eaee3 0%, #0eaee3 100%);
+}
+
+.card-3:hover {
+    transform: scale(1.20);
+    box-shadow: -7px 4px 28px -3px #58e2fb;
+    transition: 0.5s;
+}
+
+.card-3::before {
+    background-color: linear-gradient(90deg, #0eaee3 0%, #0eaee3 100%);
+}
+
+/* Habilidades */
+.habilidades {
+    height: 80vh;
+}
+
+.icones {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.25rem;
+    letter-spacing: 50pt;
+    font-size: 70pt;
+
+}
+
+#html:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 0.06rem 1px 7px #f67f30;
+
+}
+
+#css:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #4cbae2;
+}
+
+#js:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #f8dd0d;
+}
+
+#react:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #0683dc;
+}
+
+#sass:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #b04ce2;
+}
+
+#git:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #df640c;
+}
+
+#github:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #4cbae2;
+}
+
+#node:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #0eb502;
+}
+
+#db:hover {
+    transform: scale(1.20);
+    transition: 500ms;
+    text-shadow: 1px 1px 7px #4cbae2;
+}
+
+
+/* Sobre & Contato */
+.sobre {
+    margin-bottom: 40vh;
+}
+
+.sobre_content {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.desc {
+    padding: 200px;
+}
+
+.desc>h2 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid #05c5e7;
+
+}
+
+
+
+.avatar {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-1.25rem);
+    }
+}
+
+
+.contato,
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 400px;
+    margin: 5rem auto;
+    padding: 20px;
+
+
+}
+
+.contato>h2,
+.habilidades>h2 {
+
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #05c5e7;
+}
+
+
+.sobre>p {
+    margin-top: 20px;
+    text-align: right;
+    letter-spacing: normal;
+
+}
+
+.contato {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        min-width: 530px;
+        overflow-x: hidden;
+        height: fit-content;
+    }
+
+    .projetos,
+    .about,
+    .contato {
+        visibility:visible;
+    }
+
+    .container {
+
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin-top: 5vh;
+        margin-left: 0.5rem;
+        padding: 0 10rem;
+
+
+    }
+
+    .div-transform {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        width: auto;
+        
+
+    }
+
+    .card {
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+
+    .habilidades {
+        margin-top: 5vh;
+    }
+
+    .icones {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 5rem;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 1.0rem;
+        padding: 0 12rem;
+
+    }
+
+    .desc{
+        padding: 5rem;
+        box-sizing: content-box;
+    }
+
+    .sobre {
+        margin-top: 10vh;
+        width: 10.25rem;
+        visibility: visible;
+        padding: 1px;
+    }
+
+    .sobre>p {
+        
+        text-align: right;
+        letter-spacing: normal;
+
+    }
+
+    .avatar {
+        margin-top: 40rem;
+        width: 0.2rem;
+    }
+
+}
