@@ -13,6 +13,8 @@
 body {
     background-color: black;
     color: #ffffff;
+    overflow-x:hidden;
+    
 }
 
 
@@ -162,16 +164,20 @@ button:hover {
 .projetos {
     color: #0eaee3;
     text-align: center;
-    margin-top: 20vh;
-    height: 90vh;
+    margin: 15em 1em;
+    height: 25vh;
+    width: 100vw;
+
+
 }
 
-.projetos>h2 {
+.projetos >h2 {
     padding: 0.6rem;
     color: #ffff;
-    border-bottom: 0.06rem solid #05c5e7;
-    width: 31.25rem;
-    margin: auto;
+    border-bottom: .01em solid #05c5e7;
+    width: 16em;
+    margin-bottom: 3em;
+    margin-left: 18em;
     font-size: 1.8rem;
 }
 
@@ -181,9 +187,10 @@ button:hover {
 
 .container {
     display: flex;
-    height: 60vh;
+    height: 20vh;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
 }
 
@@ -307,16 +314,19 @@ button:hover {
 
 /* Habilidades */
 .habilidades {
-    height: 80vh;
+    height: auto;
+    width: 100%;
+    
 }
 
 .icones {
-    margin-top: 10vh;
+    margin: 10vh;
     display: flex;
     justify-content: space-around;
     padding-top: 1.25rem;
     letter-spacing: 50pt;
     font-size: 70pt;
+    
 
 }
 
@@ -377,32 +387,49 @@ button:hover {
 
 
 /* Sobre & Contato */
-.sobre {
-    margin-bottom: 40vh;
+.sobre{
+    width: 90vw;
+    
 }
 
 .sobre_content {
-    margin: auto;
+    margin: auto 20rem;
+    width: 90vw;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-evenly;
 }
 
 .desc {
-    padding: 200px;
+    padding: 10px;
+    display: block;
+    box-sizing: content-box;
+    width: 60em;
+    font-size: 1em;
 }
 
 .desc>h2 {
     text-align: center;
     margin-bottom: 1.25rem;
     border-bottom: 1px solid #05c5e7;
+    width: 15em;
 
 }
 
+.desc>p{
+    text-align: left;
+    width: 20em;
+}
 
 
 .avatar {
     animation: float 3s ease-in-out infinite;
+    width: 42vw;
+    
+}
+
+.avatar>img{
+    width: 25em;
 }
 
 @keyframes float {
@@ -451,108 +478,6 @@ button:hover {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    body {}
-
-
-}
-
-
-@media screen and (max-width: 600px) {
-
-    body {
-        width: 80%;
-        max-width: 500px;
-        height: fit-content;
-    }
-
-
-    .contato>h2,
-.habilidades>h2{
-
-    text-align: center;
-    margin-right: 15vw;
-}
-
-.projetos>h2{
-    width: 9rem;
-    margin-left: 60vw;
-}
-
-    .projetos,
-    .about,
-    .contato {
-        visibility:visible;
-    }
-
-    .container {
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 5vh;
-        margin-left: 80%;
-        padding: 0 1rem;
-
-
-    }
-
-    .div-transform {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: auto;
-        margin-left: 20vw;
-
-    }
-
-    .card {
-        margin-bottom: 2rem;
-        width: 10rem;
-        padding: 1rem;
-    }
-
-
-    .habilidades {
-        margin-top: 5vh;
-        margin-left: 30vw;
-    }
-
-    .icones {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-        margin-top: 5vh;
-        padding: 0 0.5rem;
-
-    }
-
-    .desc{
-        padding: 5rem;
-        box-sizing: content-box;
-    }
-
-    .sobre {
-        margin-top: 10vh;
-        width: 2vw;
-        visibility: visible;
-        padding: 1px;
-        margin-left: 20vw;
-    }
-
-    .desc{
-        width: 1vw;
-    }
-
-    .sobre>p {
-        
-        text-align: right;
-        letter-spacing: normal;
-        width: 1vw;
-
-    }
-
-    .avatar {
-        margin-top: 40rem;
-        width: 0.2rem;
-    }
+@media (max-width: 768px) {
 
 }
