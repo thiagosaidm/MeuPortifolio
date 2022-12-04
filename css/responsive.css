@@ -156,7 +156,10 @@
 }
 
 @media (max-width: 400px){
-    
+    body{
+        overflow-x: hidden;
+    }
+
     .nome{
         margin: auto;
         width: 100vw;
