@@ -347,7 +347,7 @@ button:hover {
     justify-content: space-around;
     padding-top: 1.25rem;
     letter-spacing: 20pt;
-    font-size: 50pt;
+    font-size: 3em;
     
 
 }
@@ -430,7 +430,7 @@ button:hover {
     text-align: left;
     margin-bottom: 1.25rem;
     border-bottom: 1px solid #05c5e7;
-    width: 15em;
+    width: 6em;
 
 }
 

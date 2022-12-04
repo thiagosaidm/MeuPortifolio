@@ -187,7 +187,7 @@
        }
     
        .habilidades{
-        width: 80vw;
+        width: 50vw;
        }
 
        .habilidades>h2{
@@ -212,4 +212,36 @@
        }
 
 
+}
+
+@media (max-width: 399px){
+    .habilidades{
+        width: 100vw;
+       }
+
+
+       .habilidades>h2{
+        margin: auto;
+        width: 50vw;
+       }
+
+       .sobre p{
+            font-size: 0.8em;
+       }
+
+       .contato{
+        width: 80vw;
+       }
+
+       .desc>h2{
+        width: 6em;
+       }
+
+       .contato{
+        visibility: visible;
+       }
+
+       .contato > h2{
+        width: 5em;
+       }
 }
