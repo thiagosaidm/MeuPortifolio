@@ -203,7 +203,13 @@
         width: 80vw;
        }
 
+       .desc>h2{
+        width: 6em;
+       }
+
        .contato > h2{
         width: 5em;
        }
+
+
 }
