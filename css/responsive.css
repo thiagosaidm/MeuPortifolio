@@ -24,7 +24,13 @@
     }
  
     .btn_menu{
-        display: block;
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        gap: .5rem;
+        
+
     }
 
     .menu{
@@ -57,6 +63,38 @@
         visibility: visible;
         overflow-y: auto;
     }
+
+    .one, .two, .three{
+        background-color: aqua;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .hamburger{
+        width: 50px;
+        height: 30px;
+        display: block;
+        margin-right: 20px;
+    }
+
+    /* transformar em x */
+    
+    #nav.on .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+   #nav.on .two{
+    opacity: 0;
+   } 
+
+   #nav.on .three{
+    transform: rotate(-45deg) translate(8px, -9px);
+}
+    
+    
+  
+
 
 
  }
