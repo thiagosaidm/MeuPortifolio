@@ -94,7 +94,7 @@ button:hover {
 
 
 .nome h1 {
-    margin: 5em;
+    margin: 2em;
     color: #ffff;
 }
 
@@ -133,7 +133,7 @@ button:hover {
 
 .sub>h1 {
     color: #ffffff;
-    margin: 1.25rem 3.12rem;
+    margin: 1.25rem auto;
     text-align: center;
 }
 
@@ -162,17 +162,17 @@ button:hover {
     text-align: center;
     margin: 15em auto;
     height: 25vh;
-    width: 100vw;
+    width: 80vw;
 
 
 }
 
 .projetos >h2 {
-    padding: 0.6rem;
+    padding: 0.2rem;
     color: #ffff;
     border-bottom: .01em solid #05c5e7;
     width: 5em;
-    margin: 3em auto;
+    margin: 2em auto;
     font-size: 20pt;
 }
 
@@ -185,14 +185,13 @@ button:hover {
     height: 20vh;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 85vw;
 
 }
 
 .div-transform {
     display: flex;
-    width: 85vw;
-
+    width: 95vw;
 
 }
 
@@ -201,11 +200,13 @@ button:hover {
     color: rgb(247, 246, 246);
     border-radius: 0.5rem;
     padding: 0px 1.12rem;
-    width: 50vw;
+    width: 60vw;
     transition: 0, 5s ease;
     overflow: hidden;
     transform: translate(0);
     text-align: center;
+    font-size: .8em;
+    
 }
 
 .card::before {
@@ -249,6 +250,12 @@ button:hover {
     margin-right: 2.5rem;
     padding: 1.56rem;
 }
+.card-4 {
+    background-size: cover;
+    transform: scale(1.02);
+    margin-right: 2.5rem;
+    padding: 1.56rem;
+}
 
 .card-1 iframe {
     box-sizing: border-box;
@@ -269,6 +276,14 @@ button:hover {
 }
 
 .card-3 iframe {
+    box-sizing: border-box;
+    width: 1.25rem;
+    margin-left: -1.25rem;
+    padding: 1.56rem;
+
+
+}
+.card-4 iframe {
     box-sizing: border-box;
     width: 1.25rem;
     margin-left: -1.25rem;
@@ -305,6 +320,19 @@ button:hover {
 
 .card-3::before {
     background-color: linear-gradient(90deg, #0eaee3 0%, #0eaee3 100%);
+}
+.card-4:hover {
+    transform: scale(1.20);
+    box-shadow: -7px 4px 28px -3px #58e2fb;
+    transition: 0.5s;
+}
+
+.card-4::before {
+    background-color: linear-gradient(90deg, #0eaee3 0%, #0eaee3 100%);
+}
+
+.card-4 > i{
+    font-size: 50pt;
 }
 
 /* Habilidades */
@@ -383,8 +411,7 @@ button:hover {
 /* Sobre & Contato */
 
 .sobre_content {
-    margin: auto 10vw;
-    width: 100vw;
+    margin: auto 15vw;
     display: grid;
     grid-template-columns: auto auto;
 
@@ -395,21 +422,16 @@ button:hover {
     padding: 10px;
     display: block;
     box-sizing: content-box;
-    width: 50em;
     font-size: 1em;
+    text-align: left;
 }
 
 .desc>h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 1.25rem;
     border-bottom: 1px solid #05c5e7;
-    width: 10em;
-
-}
-
-.desc>p{
-    text-align: left;
     width: 15em;
+
 }
 
 
@@ -420,7 +442,7 @@ button:hover {
 }
 
 .avatar>img{
-    width: 25em;
+    width: 100%;
 }
 
 @keyframes float {
@@ -451,8 +473,8 @@ button:hover {
 .contato>h2,
 .habilidades>h2 {
 
-    padding: 10px;
-    width: 50vw;
+    padding: 1px;
+    width: 22vw;
     text-align: center;
     margin: auto;
     border-bottom: 1px solid #05c5e7;
@@ -463,11 +485,16 @@ button:hover {
     margin-top: 20px;
     text-align: right;
     letter-spacing: normal;
+    width: 5rem;
 
 }
 
 .contato {
     text-align: center;
+}
+
+.contato > p{
+    margin-top: 1em;
 }
 
 

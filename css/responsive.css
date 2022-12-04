@@ -1,26 +1,32 @@
 @media (max-width: 968px) {
     
-    
+    .projetos{
+        margin: auto;
+    }
+
     .container{
-     height: 60vh;
+     height: 30vh;
+     margin: auto 3em;
     }
     
      .div-transform{
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      flex-wrap: wrap;
      align-content: center;
      justify-items: center;
+     margin-top: 10em;
      
     }
  
     .card{
-     margin-bottom: 20px;
+     margin-bottom: 30px;
+     width: 30vw;
     
     }
  
     .habilidades{
-        margin-top: 70vh;
+        margin-top: 50vh;
     }
  
     .btn_menu{
@@ -42,7 +48,7 @@
         z-index: 1000;
         top:100px;
         right: 0;
-        background-color: rgb(29, 217, 254);
+        background-color:#0eaee3;
         transition: .5s;
         overflow-y: hidden;
     }
@@ -55,7 +61,7 @@
     }
 
     .menu a:hover{
-        background-color: rgb(255, 255, 255);
+        background-color: #fff
     }
 
     #nav.on .menu{
@@ -65,7 +71,7 @@
     }
 
     .one, .two, .three{
-        background-color: aqua;
+        background-color: #0eaee3;
         height: 5px;
         width: 100%;
         margin: 6px auto;
@@ -91,12 +97,110 @@
    #nav.on .three{
     transform: rotate(-45deg) translate(8px, -9px);
 }
+
+.icones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .5em .2em;
+    margin: auto;
+}
+
+.sobre_content {
+    margin: auto 3vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+
+}
+
+
+}
+
+@media (max-width: 600px){
+
+    .nome{
+        margin: auto;
+        width: 100vw;
+    }
+
+    .sub{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .container{
+        height: 30vh;
+        margin: auto 1em;
+       }
+       
+       .card{
+        margin-bottom: 50px;
+        width: 30vw;
+        font-size: 0.6em;
+       }
     
+       .habilidades{
+        width: 100vw;
+       }
+
+       .habilidades>h2{
+        margin: auto;
+        width: 50vw;
+       }
+
+       .sobre p{
+            font-size: 0.8em;
+       }
+
+
+}
+
+@media (max-width: 400px){
     
-  
+    .nome{
+        margin: auto;
+        width: 100vw;
+    }
 
+    .nome >h1{
+        font-size: 1.5em;
+    }
 
+    .sub{
+        width: 70vw;
+        margin: auto;
+    }
 
- }
+    .container{
+        height: 30vh;
+        margin: auto 1em;
+       }
+       
+       .card{
+        margin-bottom: 50px;
+        width: 30vw;
+        font-size: 0.5em;
+        text-align: center;
+       }
+    
+       .habilidades{
+        width: 80vw;
+       }
 
- 
+       .habilidades>h2{
+        margin: auto;
+        width: 50vw;
+       }
+
+       .sobre p{
+            font-size: 0.8em;
+       }
+
+       .contato{
+        width: 80vw;
+       }
+
+       .contato > h2{
+        width: 5em;
+       }
+}
