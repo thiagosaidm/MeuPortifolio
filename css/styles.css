@@ -50,6 +50,10 @@ header {
     padding: 2rem 10%;
 }
 
+.btn_menu{
+    visibility: hidden;
+}
+
 .nav_links {
     list-style: none;
 
@@ -167,7 +171,7 @@ button:hover {
     border-bottom: .01em solid #05c5e7;
     width: 5em;
     margin: 3em auto;
-    font-size: 1.8rem;
+    font-size: 20pt;
 }
 
 
@@ -435,7 +439,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    width: 400px;
+    width: 80vw;
     margin: 5rem auto;
     padding: 20px;
 
@@ -446,8 +450,9 @@ button:hover {
 .habilidades>h2 {
 
     padding: 10px;
+    width: 50vw;
     text-align: center;
-    margin-bottom: 10px;
+    margin: auto;
     border-bottom: 1px solid #05c5e7;
 }
 
@@ -463,6 +468,5 @@ button:hover {
     text-align: center;
 }
 
-@media (max-width: 768px) {
 
-}
+

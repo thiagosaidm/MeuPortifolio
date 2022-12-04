@@ -1,0 +1,35 @@
+@media (max-width: 968px) {
+    
+    
+    .container{
+     height: 60vh;
+    }
+    
+     .div-transform{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-items: center;
+     
+    }
+ 
+    .card{
+     margin-bottom: 20px;
+    
+    }
+ 
+    .habilidades{
+        margin-top: 70vh;
+    }
+ 
+    .btn_menu{
+        visibility: visible;
+    }
+
+    nav{
+        display: none;
+    }
+ }
+
+ 
