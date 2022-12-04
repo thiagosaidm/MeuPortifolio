@@ -10,6 +10,17 @@
     sr.reveal('.sobre', { delay: 1000 });
     sr.reveal('.contato', { delay: 500 });
 
+/* Menu Hamburger */
+
+const menuBtn = document.querySelector(".btn_menu");
+
+function mostrarMenu() {
+    const nav = document.getElementById('nav')
+    nav.classList.toggle('on');
+}
+
+menuBtn.addEventListener("click", mostrarMenu)
+
 
 
 

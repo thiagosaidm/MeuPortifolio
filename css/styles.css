@@ -51,24 +51,26 @@ header {
 }
 
 .btn_menu{
-    visibility: hidden;
+    display: none;
 }
 
-.nav_links {
+.menu {
     list-style: none;
+    display: flex;
+    
 
 }
 
-.nav_links li {
-    display: inline-block;
+.menu li{
+    display: flex;
     padding: 0 1rem;
 }
 
-.nav_links li a {
+.menu li a {
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+.menu li a:hover {
     color: #0eaee3;
     text-shadow: 0.12rem 0.12rem 0.9rem #58e2fb;
 }
