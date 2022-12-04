@@ -219,14 +219,19 @@
         width: 100vw;
        }
 
-
        .habilidades>h2{
         margin: auto;
         width: 50vw;
        }
 
+       .sobre_content{
+        display: flex;
+        flex-direction: column;
+
+       }
        .sobre p{
             font-size: 0.8em;
+            text-align: center;
        }
 
        .contato{
@@ -235,6 +240,7 @@
 
        .desc>h2{
         width: 6em;
+        margin:  1em auto;
        }
 
        .contato{
