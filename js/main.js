@@ -13,15 +13,13 @@
 /* Menu Hamburger */
 
 const menuBtn = document.querySelector(".btn_menu");
+const nav = document.getElementById('nav')
 
 function mostrarMenu() {
-    const nav = document.getElementById('nav')
     nav.classList.toggle('on');
 }
 
 menuBtn.addEventListener("click", mostrarMenu)
-
-
 
 
 
