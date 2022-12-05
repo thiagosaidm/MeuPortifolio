@@ -65,9 +65,9 @@
     }
 
     #nav.on .menu{
-        height: 40vh;
+        height: 50vh;
         visibility: visible;
-        overflow-y: auto;
+        overflow-y:hidden;
     }
 
     .one, .two, .three{
