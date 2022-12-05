@@ -65,7 +65,7 @@
     }
 
     #nav.on .menu{
-        height: 100vh;
+        height: 40vh;
         visibility: visible;
         overflow-y: auto;
     }
@@ -73,21 +73,22 @@
     .one, .two, .three{
         background-color: #0eaee3;
         height: 5px;
-        width: 100%;
-        margin: 6px auto;
+        width: 75%;
+        margin: 5px auto;
     }
 
     .hamburger{
-        width: 50px;
-        height: 30px;
+        width: 40px;
+        height: 5px;
         display: block;
-        margin-right: 20px;
+        margin-right: -25px;
+        margin-top: -15px;
     }
 
     /* transformar em x */
     
     #nav.on .one{
-        transform: rotate(45deg) translate(7px, 7px);
+        transform: rotate(45deg) translate(7px, 6px);
     }
 
    #nav.on .two{
@@ -95,7 +96,7 @@
    } 
 
    #nav.on .three{
-    transform: rotate(-45deg) translate(8px, -9px);
+    transform: rotate(-45deg) translate(8px, -7px);
 }
 
 .icones{
