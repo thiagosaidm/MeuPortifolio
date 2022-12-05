@@ -65,7 +65,7 @@
     }
 
     #nav.on .menu{
-        height: 50vh;
+        height: 40vh;
         visibility: visible;
         overflow-y:hidden;
     }
