@@ -223,6 +223,7 @@ button:hover {
 
 .card h2 {
     text-transform: capitalize;
+    margin-top: 1em;
 }
 
 .card h4 {

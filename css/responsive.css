@@ -251,4 +251,9 @@
        .contato > h2{
         width: 5em;
        }
+
+       .card i{
+        margin-top: .1em;
+            font-size: 5em;
+       }
 }
