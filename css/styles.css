@@ -206,6 +206,7 @@ button:hover {
     transform: translate(0);
     text-align: center;
     font-size: .8em;
+    cursor: pointer;
     
 }
 
