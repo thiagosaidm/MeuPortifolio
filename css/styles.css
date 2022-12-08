@@ -231,6 +231,9 @@ button:hover {
     letter-spacing: 0.25rem;
     margin-top: 2.5rem;
 }
+.card p {
+    margin-top: 1em;
+}
 
 .card-1 {
     background-size: cover;
