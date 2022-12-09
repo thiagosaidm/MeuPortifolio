@@ -170,7 +170,7 @@ header {
     border-bottom: .01em solid #05c5e7;
     width: 5em;
     margin: 2em auto;
-    font-size: 20pt;
+    font-size: 1.5em;
 }
 
 
@@ -488,7 +488,18 @@ header {
 
 }
 
-.contato>h2,
+.contato h2{
+    font-size: 1.3em;
+    border-bottom: 1px solid #05c5e7;
+    width: 5em;
+    margin: .5em auto;
+
+}
+
+.contato p{
+    font-size: .8em;
+}
+
 .habilidades>h2 {
 
     padding: 1px;
