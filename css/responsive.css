@@ -212,6 +212,7 @@
         width: 5em;
        }
 
+       
 
 }
 
@@ -233,6 +234,7 @@
        .sobre p{
             font-size: 0.7em;
             text-align:start;
+            padding-left: 2em;
        }
 
        .contato{
@@ -246,14 +248,38 @@
 
        .contato{
         visibility: visible;
+        
        }
 
        .contato > h2{
         width: 5em;
+        
        }
 
        .card i{
         margin-top: .1em;
-            font-size: 5em;
+        font-size: 5em;
+       }
+
+       .links_externos {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1.25rem;
+        margin: auto;
+    }
+    
+    .links_externos img {
+        width: 3em;
+    }
+    
+    .links_externos button {
+        margin: auto .5em;
+        padding: auto;
+    
+    }
+
+       .download{
+        margin-left:4.5em;
        }
 }
