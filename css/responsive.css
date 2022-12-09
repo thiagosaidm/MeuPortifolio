@@ -188,7 +188,7 @@
        }
     
        .habilidades{
-        width: 50vw;
+        width: 40vw;
        }
 
        .habilidades>h2{
@@ -218,7 +218,7 @@
 
 @media (max-width: 399px){
     .habilidades{
-        width: 100vw;
+        width: 80vw;
        }
 
        .habilidades>h2{
@@ -280,6 +280,6 @@
     }
 
        .download{
-        margin-left:4.5em;
+        margin-left:5.5em;
        }
 }
