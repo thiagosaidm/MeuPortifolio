@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <img class="logo" src="./css/imgs/Thiago.png" alt="logo">
+        <img src="./css/imgs/logo.png" alt="logo" class="logo">
 
 
         <nav id="nav" class="scroll">
@@ -44,40 +44,86 @@
 
     </div>
 
+
     <div class="sub">
-        <img src="./css/imgs/perfil.jpg" alt="thiago">
+        <img src="./css/imgs/perfil.jpg" alt="thiago" class="perfil">
         <h1>Desenvolvedor Front End</h1>
     </div>
 
     <div class="projetos">
-        <h2 id="projetos"> Projetos</h2>
-        <div class="container">
-            <div class="div-transform">
+        <h2 id="projetos" class="titulo"> Projetos</h2>
 
-                <a href="https://to-do-devsaid.netlify.app/" target="_blank" class="card card-1">
-                    <h2>TO-DO LIST</h2>
-                    <p> To-Do List feito com JavaScript Puro</p>
+        <div class="slider">
 
-                </a>
-                <a href="https://animesearch-devsaid.netlify.app/" target="_blank" class="card card-2" >
-                    <h2>Anime Search</h2>
-                    <p> Projeto com React Consumindo API</p>
+            <div class="projeto-content" id="imagens">
 
-                <a/>
-               
-                
-                <a href="https://github.com/thiagosaidm" class="card card-4">
-                    <h2>Mais Projetos</h2>
-                    <i class="fa-brands fa-github"></i>
-                    
-                </a>
+                <div class="projetos-cards">
+                    <div class="card">
+                        <img src="./css/imgs/projetos/img1.jpg" alt="" class="card-image">
+                        <span>
+                            <p class="card-description">
 
-
-            </div>
-            <div class="git">
-                <div>
-                    
+                            <ul>
+                                <li>To Do List</li>
+                                <li>JavaScript Vanilla</li>
+                                <li> <a href="https://to-do-devsaid.netlify.app/" target="_blank"
+                                        rel="noopener noreferrer">Acesse Aqui</a> </li>
+                            </ul>
+                            </p>
+                        </span>
+                    </div>
                 </div>
+
+                <div class="projetos-cards">
+                    <div class="card">
+                        <img src="./css/imgs/projetos/img2.jpg" alt="" class="card-image">
+                        <span>
+                            <p class="card-description">
+
+                            <ul>
+                                <li>Anime Search</li>
+                                <li>React</li>
+                                <li><a href="https://animesearch-devsaid.netlify.app/" target="_blank"
+                                        rel="noopener noreferrer"> Acesse Aqui</a> </li>
+                            </ul>
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="projetos-cards">
+                    <div class="card">
+                        <img src="./css/imgs/projetos/img3.jpg" alt="" class="card-image">
+                        <span>
+                            <p class="card-description">
+
+                            <ul>
+                                <li>Landing Page</li>
+                                <li>Html e CSS</li>
+                                <li><a href="http://" target="_blank" rel="noopener noreferrer"> Acesse Aqui</a> </li>
+                            </ul>
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="projetos-cards">
+                    <div class="card">
+                        <img src="css/imgs/projetos/img4.jpg" alt="" class="card-image">
+                        <span>
+                            <p class="card-description">
+
+                            <ul>
+                                <li>Mais Projetos</li>
+                                <li>GitHub</li>
+                                <li><a href="https://github.com/thiagosaidm" target="_blank"
+                                        rel="noopener noreferrer">Acesse Aqui</a> </li>
+                            </ul>
+                            </p>
+                        </span>
+                    </div>
+
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -87,16 +133,15 @@
 
 
     <div class="habilidades" id="habilidades">
-        <h2>Habilidades</h2>
-        <div class="icones">
+        <h2 class="titulo">Habilidades</h2>
+        <div class="habilidades-icones">
             <i class="fa-brands fa-html5" id="html"></i>
             <i class="fa-brands fa-css3-alt" id="css"></i>
             <i class="fa-brands fa-js" id="js"></i>
             <i class="fa-brands fa-react" id="react"></i>
             <i class="fa-brands fa-square-git" id="git"></i>
             <i class="fa-brands fa-square-github" id="github"></i>
-            <i class="fa-brands fa-node-js" id="node"></i>
-            <i class="fa-solid fa-database" id="db"></i>
+
         </div>
 
 
@@ -115,16 +160,17 @@
 
             <div class="desc">
 
-                <h2>Sobre mim</h2>
+                <h2 class="titulo">Sobre mim</h2>
                 <p> Desenvolvedor Front End. Tenho conhecimentos em React.js, JavaScript, HTML5 e CSS3.
                     Atualmente cursando Análise e Desenvolvimento de Sistemas.
                     <br>
                     Estou sempre me aperfeiçoando, meu jeito de trabalhar é com resiliencia, foco e buscando fazer a
                     diferença,
                     seja onde estiver.
-                </p> 
-                <button class="download"><a href="./content/ThiagoSaidCv.pdf" download="ThiagoSaidCv">Baixar Meu Currículo<a/></button>
-                 
+                </p>
+                <button class="download"><a href="./content/ThiagoSaidCv.pdf" download="ThiagoSaidCv">Baixar Meu
+                        Currículo<a /></button>
+
             </div>
 
 
@@ -135,7 +181,7 @@
     </div>
 
     <div class="contato">
-        <h2 id="contato">Contato</h2>
+        <h2 id="contato" class="titulo">Contato</h2>
         <p>thiag.said@gmail.com <br>ou<br> </p>
 
         <div class="links_externos">
