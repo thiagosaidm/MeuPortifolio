@@ -9,7 +9,15 @@
      margin: auto 3em;
     }
     
-  
+     .div-transform{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-items: center;
+     margin-top: 10em;
+     
+    }
  
     .card{
      margin-bottom: 30px;
@@ -99,8 +107,7 @@
 }
 
 .sobre_content {
-    margin: auto;
-    width: 100%;
+    margin: auto 3vw;
     display: grid;
     grid-template-columns: repeat(2, 50%);
 
@@ -129,20 +136,12 @@
        
        .card{
         margin-bottom: 50px;
-        width: 100%;
+        width: 30vw;
         font-size: 0.6em;
        }
     
        .habilidades{
-        width: 100%;
-        
-       }
-
-       .habilidades-icones{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        padding: auto;
+        width: 100vw;
        }
 
        .habilidades>h2{
