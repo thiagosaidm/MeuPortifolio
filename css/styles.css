@@ -34,11 +34,14 @@ body {
 
 
 .title {
+    width: 7em;
+    margin: 1em auto;
     color: #fff;
     text-align: center;
-    margin:auto;
     border-bottom: 1px solid #05c5e7;
-    width: 7em;
+    
+    white-space: nowrap;
+
 }
 
 /*MENU */
@@ -154,22 +157,21 @@ a {
 }
 
 
+/* FIM APRESENTAÇÃO DO SITE */
+
+
 
 
 /* INICIO PROJETOS */
 
-.projetos {
-    color: #0eaee3;
-    text-align: center;
-    margin: 10em auto;
-    padding: auto;
-    height: auto;
-    width: 100%;
+.projetos-content {
 
+    width: 100%;
+    padding: 1.5em;
 
 }
 
-.projetos-content{
+.projetos-cards{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -181,7 +183,7 @@ a {
     max-width: 20%;
     height: auto;
     background-color: #05c5e7;
-    margin: .2em;
+    margin: .5em;
 }
 
 .card-image{
@@ -195,17 +197,19 @@ a {
 
 /* FIM PROJETOS */
 
+
+
+
 /* Habilidades */
-.habilidades {
-    height: auto;
+
+.habilidades{
+    width: 100%;
 
 }
-
 .icones {
-    margin: 5vh;
+    margin: 1em;
     display: flex;
     justify-content: space-around;
-    padding-top: 1.25rem;
     letter-spacing: 20pt;
     font-size: 3em;
 
@@ -268,36 +272,39 @@ a {
 }
 
 
-/* Sobre & Contato */
+/* INICIO SOBRE */
 
-.sobre_content {
-    margin: auto 15vw;
-    display: grid;
-    grid-template-columns: auto auto;
-
-
-}
-
-.desc {
-    padding: 10px;
-    display: block;
-    box-sizing: content-box;
-    font-size: 1em;
-    text-align: left;
+.sobre{
+    width: 100%;
 }
 
 
+.sobre-content {
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
 
-.desc p {
-    margin-bottom: 2em;
 }
+
+.sobre-texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .download {
+    max-width: 50%;
     padding: .8em;
     border-radius: 10px;
     border: none;
+    margin: 3em auto;
     background-color: #05c5e7;
-    max-width: 50vw;
+    
 }
 
 .download:hover {
@@ -308,13 +315,9 @@ a {
 
 .avatar {
     animation: float 3s ease-in-out infinite;
-    margin-left: auto;
 
 }
 
-.avatar>img {
-    width: 100%;
-}
 
 @keyframes float {
 
@@ -340,26 +343,12 @@ a {
 
 }
 
-.contato h2 {
-    font-size: 1.3em;
-    border-bottom: 1px solid #05c5e7;
-    width: 5em;
-    margin: .5em auto;
 
-}
 
 .contato p {
     font-size: .8em;
 }
 
-.habilidades>h2 {
-
-    padding: 1px;
-    width: 22vw;
-    text-align: center;
-    margin: auto;
-    border-bottom: 1px solid #05c5e7;
-}
 
 .contato img {
     width: 3em;
