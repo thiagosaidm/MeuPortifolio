@@ -180,19 +180,27 @@ a {
 }
 
 .card{
-    max-width: 20%;
-    height: auto;
+    height: 17em;
     background-color: #05c5e7;
     margin: .5em;
+    padding: 1em;
+    border-radius: 2%;
 }
 
 .card-image{
-
+ 
+    width: 100%;
+    max-height: max-content;
 }
+
+
 
 .projetos-content li{
     list-style: none;
+    text-align: center;
 }
+
+
 
 
 /* FIM PROJETOS */
@@ -204,6 +212,8 @@ a {
 
 .habilidades{
     width: 100%;
+    height: auto;
+    margin: 5em auto;
 
 }
 .icones {
@@ -313,7 +323,8 @@ a {
 }
 
 
-.avatar {
+.sobre-img {
+    box-sizing: content-box;
     animation: float 3s ease-in-out infinite;
 
 }
@@ -331,18 +342,11 @@ a {
     }
 }
 
+/* FIM SOBRE */
 
-.contato,
-.habilidades {
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-    width: 80vw;
-    margin: 5rem auto;
-    padding: 20px;
 
-}
 
+/* INICIO CONTATO */
 
 
 .contato p {
@@ -354,46 +358,38 @@ a {
     width: 3em;
 }
 
-
-.sobre>p {
-    margin-top: 20px;
-    text-align: right;
-    letter-spacing: normal;
-    width: 5rem;
-
-}
-
 .contato {
     text-align: center;
 }
 
-.contato>p {
-    margin-top: 1em;
-}
-
+/* FIM CONTATO */
 
 
 /* INICIO LINKS PROFISSIONAIS */
-
-.links_externos {
-    width: 30vh;
-    display: flex;
-    justify-content: space-evenly;
+.content-contato{
+    box-sizing: border-box;
+    width: 100%;
+    height: max-content;
     margin: 1em auto;
+    padding: 1em;
 }
 
-.links_externos img {
-    width: 1em;
+.contato-links {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 2em auto;
+}
+
+.contato-links img {
+    width: 2em;
     margin-top: .2em;
+    
 }
-
-.links_externos button {
-    margin: auto .1em;
-
-}
-
-.links_externos button {
+.contato-links button {
     padding: .1em .4em;
+    margin: .5em;
     background-color: #05c5e7;
     border: 0.12rem solid rgba(14, 174, 227, 1);
     border-radius: 50%;
@@ -401,9 +397,10 @@ a {
     transition: all 0.3s ease 0s;
 }
 
-.links_externos button:hover {
+.contato-links button:hover {
     background-color: rgba(14, 174, 227, 1);
     box-shadow: 0.06rem 0.06rem 0.93rem 0.12rem #4cbae2;
 }
 
 /* FIM LINKS PROFISSIONAIS */
+
