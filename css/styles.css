@@ -142,14 +142,6 @@ a {
 
 }
 
-
-.content-banner img {
-    border: .5rem solid #05c5e7;
-    border-radius: 50%;
-    height: 12rem;
-
-}
-
 .banner-subtitle {
     display: flex;
     flex-direction: column;
@@ -322,13 +314,12 @@ a {
     box-shadow: 0.06rem 0.06rem 0.93rem 0.12rem #4cbae2;
 }
 
-
-.sobre-img {
-    box-sizing: content-box;
-    animation: float 3s ease-in-out infinite;
+.sobre img {
+    border: .5rem solid #05c5e7;
+    border-radius: 50%;
+    height: 12rem;
 
 }
-
 
 @keyframes float {
 
