@@ -22,7 +22,7 @@
         width: 100%;
         height: auto;
         z-index: 1000;
-        top:100px;
+        top:70px;
         right: 0;
         background-color:#0eaee3;
         transition: .5s;
@@ -73,6 +73,28 @@
 
    #nav.on .three{
     transform: rotate(-45deg) translate(8px, -7px);
+}
+
+.content-banner {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:auto;
+    padding: 0 4em;
+    width: 100%;
+    background-image: linear-gradient(180deg, #05c5e7, #0d0d0d);
+    
+
+}
+
+.banner-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    
 }
 
 
