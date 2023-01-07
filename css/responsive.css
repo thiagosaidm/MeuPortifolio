@@ -131,18 +131,18 @@
 
 }
 
-@media(max-width:768px){
+@media(max-width:900px){
     .projetos-cards {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 1em;
         margin: auto;
         padding: 2em 1em;
     }
 
     .card {
-        width: 15em;
+        width: 14em;
         min-height: 10em;
         margin: auto;
         display: flex;
@@ -161,43 +161,43 @@
         margin: auto;
         padding: .2em;
     }
+}
+
+@media (max-width: 800px) {
+
+
+    .projetos-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        margin: auto;
+        padding: 2em 1em;
+    }
+
+    .card {
+        width: 15em;
+        min-height: 10em;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icones {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: auto;
+    }
+
+    .icones i {
+        margin: auto;
+        padding: .2em;
+    }
+
 }
 
 @media (max-width: 600px) {
-
-
-    .projetos-cards {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1em;
-        margin: auto;
-        padding: 2em 1em;
-    }
-
-    .card {
-        width: 15em;
-        min-height: 10em;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .icones {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        margin: auto;
-    }
-
-    .icones i {
-        margin: auto;
-        padding: .2em;
-    }
-
-}
-
-@media (max-width: 425px) {
 
     .banner {
         width: 100%;
@@ -236,7 +236,7 @@
 
 }
 
-@media (max-width: 399px) {
+@media (max-width: 550px) {
     
     .logo{
         width: 3em;
@@ -258,7 +258,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     .banner {
         box-sizing: content-box;
         width: 100%;
