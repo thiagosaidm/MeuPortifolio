@@ -131,6 +131,38 @@
 
 }
 
+@media(max-width:768px){
+    .projetos-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        margin: auto;
+        padding: 2em 1em;
+    }
+
+    .card {
+        width: 15em;
+        min-height: 10em;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .icones {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: auto;
+    }
+
+    .icones i {
+        margin: auto;
+        padding: .2em;
+    }
+}
+
 @media (max-width: 600px) {
 
 
