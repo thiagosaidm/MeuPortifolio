@@ -1,7 +1,17 @@
 @media (max-width: 968px) {
+    body{
+        height: 100%;
+    }
 
     .projetos {
         margin: auto;
+        width: 100%;
+    }
+
+    .projetos-cards{
+        width: 100%;
+        margin: auto;
+        padding: auto 10em;
     }
 
 
@@ -16,30 +26,32 @@
     }
 
     .menu {
-        box-sizing: border-box;
         visibility: hidden;
         position: absolute;
-        width: 100%;
+        width: 60%;
         height: auto;
         z-index: 1000;
         top: 65px;
         right: 0;
         background-color: #0eaee3;
-        transition: .5s;
+        transition: .8s;
         overflow-y: hidden;
         display: flex;
         flex-direction: column;
+        margin: .01em;
     }
 
     .menu li {
-        width: auto;
+        width: 100%;
+        
     }
 
     .menu a {
         padding: 1em;
         text-align: center;
         margin: auto;
-
+        
+        
     }
 
     .menu a:hover {
@@ -48,8 +60,11 @@
 
     #nav.on .menu {
         height: auto;
+        width: 100%;
         visibility: visible;
         overflow-y: hidden;
+        margin: .01em;
+        box-sizing: border-box;
     }
 
     .one,
@@ -87,6 +102,8 @@
         display: flex;
         justify-content: center;
         height: 15em;
+        width: 100%;
+       
 
     }
 
@@ -103,6 +120,12 @@
 
     }
 
+    .icones{
+    
+        font-size: 28px;
+    }
+   
+
 
 
 
@@ -112,6 +135,7 @@
 
 
     .projetos-cards {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1em;
@@ -181,6 +205,7 @@
 }
 
 @media (max-width: 399px) {
+    
     .logo{
         width: 3em;
     }
@@ -203,6 +228,7 @@
 
 @media (max-width: 320px) {
     .banner {
+        box-sizing: content-box;
         width: 100%;
     }
 

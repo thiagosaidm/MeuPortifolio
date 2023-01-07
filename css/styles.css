@@ -14,9 +14,12 @@ body {
     background-color: #0d0d0d;
     color: #ffffff;
     width: 100%;
-    
+    box-sizing: content-box;
+   
+      
 
 }
+
 
 
 .projetos,
@@ -176,8 +179,6 @@ a {
 
 .projetos-cards{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     margin: auto;
     padding: 2em 1em;
 }
@@ -189,6 +190,10 @@ a {
     padding: 1em;
     border-radius: 5%;
     text-shadow: 1px 1px 10px #1a1a1a;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -249,7 +254,7 @@ a {
 
 .sobre{
     width: 100%;
-
+   
 }
 
 
@@ -318,7 +323,8 @@ a {
 
 .contato {
     text-align: center;
-    
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* FIM CONTATO */
