@@ -8,6 +8,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://kit.fontawesome.com/2bae784961.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="icon" href="./css/imgs/icon.png">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -15,8 +16,13 @@
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="./css/imgs/Thiago.png" alt="logo">
+
+    <!-- INICIO MENU -->
+
+    <div class="navbar">
+
+
+        <img class="logo" src="./css/imgs/logo.png" alt="logo">
 
 
         <nav id="nav" class="scroll">
@@ -35,131 +41,246 @@
             </ul>
         </nav>
 
-    </header>
+    </div>
+
+    <!-- FIM MENU  -->
 
 
-    <div class="nome">
-        <h1 id="texto"> Oi! Meu nome é Thiago Said!</h1>
+
+
+    <!--  INICIO APRENSENTAÇÃO  -->
+
+    <div class="banner">
+
+
+
+        <div class="content-banner">
+
+            <div class="banner-subtitle">
+                <h1 id="texto"> Thiago Said</h1>
+                <h2>
+                    < DesenvolvedorFrontEnd />
+                </h2>
+            </div>
+
+
+        </div>
+
+
 
 
     </div>
 
-    <div class="sub">
-        <img src="./css/imgs/perfil.jpg" alt="thiago">
-        <h1>Desenvolvedor Front End</h1>
-    </div>
+    <!--  FIM APRESENTAÇÃO  -->
+
+
+    <!--  INICIO PROJETOS   -->
+
 
     <div class="projetos">
-        <h2 id="projetos"> Projetos</h2>
-        <div class="container">
-            <div class="div-transform">
 
-                <a href="https://to-do-devsaid.netlify.app/" target="_blank" class="card card-1">
-                    <h2>TO-DO LIST</h2>
-                    <p> To-Do List feito com JavaScript Puro</p>
 
-                </a>
-                <a href="https://animesearch-devsaid.netlify.app/" target="_blank" class="card card-2" >
-                    <h2>Anime Search</h2>
-                    <p> Projeto com React Consumindo API</p>
+        <div class="fundo-claro">
 
-                <a/>
-               
-                
-                <a href="https://github.com/thiagosaidm" class="card card-4">
-                    <h2>Mais Projetos</h2>
-                    <i class="fa-brands fa-github"></i>
-                    
-                </a>
+
+            <div class="projetos-content">
+
+                <h2 id="projetos" class="title"> Projetos</h2>
+                <div class="projetos-cards">
+
+                    <div class="card">
+
+                        <p class="legenda">
+                        <ul>
+                            <li>To Do List</li>
+                            <li>JavaScript</li>
+                            <li><a href="https://to-do-devsaid.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">Clique para Ver</a></li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="card">
+
+                        <p class="legenda">
+                        <ul>
+                            <li>Consultor de Animes</li>
+                            <li>React</li>
+                            <li><a href="https://animesearch-devsaid.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer">Clique para ver</a></li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="card">
+
+                        <p class="legenda">
+                        <ul>
+                            <li>Login Page</li>
+                            <li>React</li>
+                            <li>Em breve</li>
+                        </ul>
+                        </p>
+                    </div>
+
+                  
+
+                    <div class="card">
+                        <div class="card-image">
+
+                        </div>
+                        <p class="legenda">
+                        <ul>
+                            <li>Projeto Pessoal</li>
+                            <li>Em Breve</li>
+                            <li></li>
+                        </ul>
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+
+                        </div>
+                        <p class="legenda">
+                        <ul>
+                            
+                            <li>Mais em breve</li>
+                            
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+
+                        <p class="legenda">
+                        <ul>
+                            <li>GitHub</li>
+                            <li>Ver Mais Projetos</li>
+                            <li><a href="https://github.com/thiagosaidm" target="_blank" rel="noopener noreferrer">Aqui</a></li>
+                        </ul>
+                        </p>
+                    </div>
+
+
+                </div>
 
 
             </div>
-            <div class="git">
-                <div>
-                    
+
+        </div>
+
+    </div>
+
+
+    <!--  FIM PROJETOS   -->
+
+
+
+    <!-- INICIO HABILIDADES  -->
+
+    <div id="habilidades" class="habilidades">
+        <div class="fundo-escuro">
+            <div class="content-habilidades">
+                <h2 class="title">Habilidades</h2>
+                <div class="icones">
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-bootstrap-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-react-original"></i>
+                    <i class="devicon-yarn-plain"></i>
+                    <i class="devicon-npm-original-wordmark"></i>
+                    <i class="devicon-github-original"></i>
+                    <i class="devicon-git-plain"></i>
+                    <i class="devicon-vscode-plain"></i>
+
+
                 </div>
             </div>
-        </div>
-    </div>
 
-
-    </div>
-
-
-    <div class="habilidades" id="habilidades">
-        <h2>Habilidades</h2>
-        <div class="icones">
-            <i class="fa-brands fa-html5" id="html"></i>
-            <i class="fa-brands fa-css3-alt" id="css"></i>
-            <i class="fa-brands fa-js" id="js"></i>
-            <i class="fa-brands fa-react" id="react"></i>
-            <i class="fa-brands fa-square-git" id="git"></i>
-            <i class="fa-brands fa-square-github" id="github"></i>
-            <i class="fa-brands fa-node-js" id="node"></i>
-            <i class="fa-solid fa-database" id="db"></i>
         </div>
 
 
 
+
     </div>
+
+
+    <!-- FIM HABILIDADES  -->
+
+
+
+    <!-- INICIO SOBRE -->
 
 
     <div class="sobre" id="sobre">
+        <div class="fundo-claro">
+            <div class="sobre-content">
+                <div class="sobre-img">
+                    <img src="./css/imgs/perfil.jpg" alt="thiago">
+                </div>
 
+                <div class="sobre-texto">
 
-        <div class="sobre_content">
+                    <h2 class="title">Sobre mim</h2>
+                    <p> Desenvolvedor Front End. Tenho conhecimentos em React, JavaScript, HTML5 e CSS3, Bootstrap e outros que você pode conferir na sessão de Habilidades.
+                        Atualmente cursando Análise e Desenvolvimento de Sistemas.
+                    
+                        Estou sempre me aperfeiçoando, meu jeito de trabalhar é com resiliencia, foco e buscando fazer a
+                        diferença,
+                        seja onde estiver.
+                    </p>
+                    <button class="download"><a href="./content/CurriculoAtualizadoThiagoSaid.pdf" download="ThiagoSaidCv">Baixar Meu
+                            Currículo<a /></button>
 
-            <div class="avatar">
-                <img src="./css/imgs/ReadyPlayerMe-Avatar__2_-removebg-preview.png" alt=""></span>
+                </div>
+
             </div>
-
-            <div class="desc">
-
-                <h2>Sobre mim</h2>
-                <p> Desenvolvedor Front End. Tenho conhecimentos em React.js, JavaScript, HTML5 e CSS3.
-                    Atualmente cursando Análise e Desenvolvimento de Sistemas.
-                    <br>
-                    Estou sempre me aperfeiçoando, meu jeito de trabalhar é com resiliencia, foco e buscando fazer a
-                    diferença,
-                    seja onde estiver.
-                </p> 
-                <button class="download"><a href="./content/ThiagoSaidCv.pdf" download="ThiagoSaidCv">Baixar Meu Currículo<a/></button>
-                 
-            </div>
-
-
-
-
-
         </div>
+
+
     </div>
+
+
+    <!-- FIM SOBRE -->
+
+
+    <!-- INICIO CONTATO  -->
 
     <div class="contato">
-        <h2 id="contato">Contato</h2>
-        <p>thiag.said@gmail.com <br>ou<br> </p>
+        <div class="content-contato">
+            <div class="content-contato-texto">
+                <h2 id="contato" class="title">Contato</h2>
+                <p>thiag.said@gmail.com <br>ou<br> </p>
+            </div>
+            <div class="contato-links">
 
-        <div class="links_externos">
+                <button>
+                    <a href="https://www.linkedin.com/in/thiago-said-soares/">
+                        <span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png"
+                                alt="linkedin">
+                        </span></a>
+                </button>
+                <button>
+                    <a href="https://api.whatsapp.com/send?phone=5548998564432&text=Oi%20Thiago!">
+                        <span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
+                                alt="WhatsApp">
+                        </span></a>
+                </button>
 
-            <button>
-                <a href="https://www.linkedin.com/in/thiago-said-soares/">
-                    <span>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png"
-                            alt="linkedin">
-                    </span></a>
-            </button>
-            <button>
-                <a href="https://api.whatsapp.com/send?phone=5548998564432&text=Oi%20Thiago!">
-                    <span>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
-                            alt="WhatsApp">
-                    </span></a>
-            </button>
+            </div>
 
         </div>
 
 
-
     </div>
+
+    <!-- FIM CONTATO  -->
+
+
+
     <script src="./js/main.js"></script>
 
 </body>
